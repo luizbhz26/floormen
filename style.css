@@ -21,7 +21,7 @@
 }
 
 body {
-    background-image: url("/img/hardwoodbg3.png");
+    background-image: url("floormen/img/hardwoodbg3.png");
     background-size: auto; 
     background-position: center;
     font-family: var(--fonte-principal);
