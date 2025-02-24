@@ -16,13 +16,12 @@
     --cinza: #aeafb3;
     --cinza-escuro: #3a3734;
     --cinza-claro: #F5F5F5;
-    --cinza-escuro: #33312f;
     --brown: #884f34;
 
 }
 
 body {
-    background-image: url("../img/hardwoodbg3.png");
+    background-image: url("/img/hardwoodbg3.png");
     background-size: auto; 
     background-position: center;
     font-family: var(--fonte-principal);
