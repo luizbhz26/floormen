@@ -2,7 +2,7 @@
     background: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
     color: white;
     padding: 20px 40px;
-    margin: 1em 1em 0 0.5em;
+    margin: 1em 1em;
     font-size: 24px;
     text-align: center;
     border-radius: 10px;
@@ -10,11 +10,13 @@
 }
 
 .banner__titulo{
+    font-style: var(--fonte-secundario);
     font-size: 36px;
     font-weight: 200;
 }
 
 .banner__texto{
+    font-style: var(--fonte-secundario);
     font-size: 14px;
     font-weight: 200;
     margin: 0.5em 0;
@@ -22,10 +24,12 @@
 }
 
 .banner__texto1{
+
     font-size: 16px;
     font-weight: 500;
     font-style: bold;
     margin: 0.5em 0;
+    text-decoration: none;
 }
 
 .banner__pesquisa {
