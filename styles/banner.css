@@ -46,6 +46,13 @@
     text-align: center;
     background-position: 2em;
 }
+
+.card__imagem{
+    margin-top: 0.5em;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
 /*.banner__pesquisa::placeholder {
     font-family: var(--fonte-principal);
     font-size: 18px;
