@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    margin-left: 0.5em;
 }
 
 .cabeçalho {
@@ -18,7 +19,6 @@
     border-radius: 10px;
     margin: 0.8em;
     padding: 0.3em;    
-
 }
 
 .container {
@@ -30,7 +30,7 @@
 .container__imagem {
     padding: 0.6em;
     justify-content: space-between;
-    margin-right: 75px;
+    margin-right: 10px;
     text-align: center;
 }
 
@@ -77,11 +77,31 @@
 
 .container__titulo,
 .container__titulo-negrito {
-    display: block;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: var(white); /* Deep wood brown */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #ffffff, #a79988);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--branco);
+    display: inline-block;
+    padding: 10px 20px;
+    border: 3px solid #9c6b30;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*display: block;
     font-family: var(--fonte-principal);
     color: var(--branco);
     font-weight: 700;
-}
+    text-align: center;
+    font-size: 23px;
+    -webkit-text-stroke: 1px var(--brown);
+    -webkit-text-fill-color: beige; /* Will override color (regardless of order) */
+  
 
 @media screen and (min-width: 1024px) {
 
