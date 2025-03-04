@@ -45,6 +45,7 @@
     font-weight: 800;
     text-align: center;
     background-position: 2em;
+    
 }
 
 .card__imagem{
@@ -53,6 +54,8 @@
     border-radius: 10px;
     margin-bottom: 1em;
 }
+
+
 /*.banner__pesquisa::placeholder {
     font-family: var(--fonte-principal);
     font-size: 18px;
