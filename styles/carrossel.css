@@ -49,7 +49,7 @@
 .card__titulo {
     color: var(--preto);
     text-align: center;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 28px;
     margin: 1.5em 0.5em;
 }
@@ -133,6 +133,8 @@
     justify-content: space-between;
 }
 
+/* Media Query */
+/* Desktop */
 @media screen and (min-width: 1024px) {
     .card .card2 {
         width: 40%;
@@ -146,5 +148,31 @@
     }
     .descrição__titulo {
         font-size: 20px;
+    }
+}
+/* iPad */
+@media screen and (min-width: 810px) {
+    .swiper-titulo {
+        font-size: 26px;
+    }
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;  
+    }
+    .card__titulo {
+        border-radius: 30px;
+    }
+    .descricao__imagem{
+        width: 200%;
+        height: 200%;
+    }
+    .descrição__titulo-livro{
+        font-size: 25px;
+    }
+    .descrição__texto {
+        font-size: 23px;
+    }
+    .descrição__titulo {
+        font-size: 23px;
     }
 }

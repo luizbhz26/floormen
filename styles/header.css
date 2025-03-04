@@ -62,6 +62,7 @@
     background: var(--preto);
     margin: 0.8em;
     padding: 0.3em;
+    background-clip: text;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -104,15 +105,17 @@
     font-size: 23px;
     -webkit-text-stroke: 1px var(--brown);
     -webkit-text-fill-color: beige; /* Will override color (regardless of order) */
-  
+ 
 
+
+/* Desktop */
 @media screen and (min-width: 1024px) {
 
     .container__titulo,
     .container__titulo-negrito {
         display: block;
         font-family: var(--fonte-principal);
-        font-size: 30px;
+        font-size: 35px;
         color: var(--preto);
     }
 
@@ -125,3 +128,27 @@
         font-weight: 700;
     }
 }
+
+
+/* iPad */
+@media screen and (min-width: 810px) {
+    
+    .cabeçalho {
+        padding: 0.5em;
+    }
+
+    .container__imagem {
+        padding: 0.6em;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .container__titulo,
+    .container__titulo-negrito {
+        font-size: 35px;
+        color: var(--preto);
+        margin-left: 3.5em
+    }
+}
+
+    
