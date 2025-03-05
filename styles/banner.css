@@ -79,9 +79,6 @@
 
 /* iPad */
 @media screen and (min-width: 810px) {
-    .banner{
-        
-    }
     .card__imagem{
         align-items: center;
         float: left;

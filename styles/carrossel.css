@@ -34,7 +34,7 @@
     height: 300%;  
 }
 .swiper-running {
-    transition: transform 1s;
+    transition: transform 2s;
 }
 
 .swiper-button-prev,
